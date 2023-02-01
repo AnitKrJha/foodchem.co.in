@@ -66,13 +66,15 @@ const Navbar = (props: Props) => {
           </Link>
         </ul>
         <div className="logo h-14  flex items-center mr-40">
+          <Link href='/'>
         <Image
             src="/logo.jpeg"
             alt=""
             className="w-full h-full"
             height={200}
             width={200}
-          />
+            />
+            </Link>
         </div>
         <div className="contactus">
 
@@ -97,13 +99,15 @@ const Navbar = (props: Props) => {
           )}
         </button>
         <div className="logo h-14   flex items-center ml-16">
+          <Link href='/'>
           <Image
             src="/logo.jpeg"
             alt=""
             className="w-full h-full"
             height={200}
             width={200}
-          />
+            />
+            </Link>
         </div>
         <div className="contactus md:hidden">
 
