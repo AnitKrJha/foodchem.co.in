@@ -1,36 +1,62 @@
 [
-    {
-      "name": "Product",
-      "tag": "Tagline"
-    },
-    {
-      "name": "Product",
-      "tag": "Tagline"
-    },
-    {
-      "name": "Product",
-      "tag": "Tagline"
-    },
-    {
-      "name": "Product",
-      "tag": "Tagline"
-    },
-    {
-      "name": "Product",
-      "tag": "Tagline"
-    },
-    {
-      "name": "Product",
-      "tag": "Tagline"
-    },
-    {
-      "name": "Product",
-      "tag": "Tagline"
-    },
-    
-    {
-      "name": "Product",
-      "tag": "Tagline"
-    }
-  
-  ]
+  {
+    "name": "Calcium Propionate",
+    "tag": "Preservative",
+    "description": "A commonly used food preservative that prevents mold growth and extends the shelf life of bread and baked goods."
+  },
+  {
+    "name": "Citric Acid",
+    "tag": "Acidulant",
+    "description": "A widely used food ingredient used to add a tart and sour flavor to food and beverages, and as a preservative to extend shelf life."
+  },
+  {
+    "name": "Sodium Propionate",
+    "tag": "Preservative",
+    "description": "A food preservative used to extend the shelf life of baked goods and dairy products, and to prevent mold growth."
+  },
+  {
+    "name": "Potassium Sorbate",
+    "tag": "Preservative",
+    "description": "A food preservative used to prevent mold and yeast growth in a wide range of food products, including cheese, wine, and dried fruits."
+  },
+  {
+    "name": "Sodium Benzoate",
+    "tag": "Preservative",
+    "description": "A food preservative used to prevent spoilage caused by bacteria and fungi in acidic food and beverage products, including soft drinks and fruit juices."
+  },
+  {
+    "name": "L-Cysteine",
+    "tag": "Dough Conditioner",
+    "description": "An amino acid used as a dough conditioner in baked goods, such as bread and pastries, to improve the texture and extend shelf life."
+  },
+  {
+    "name": "Propionic Acid",
+    "tag": "Preservative",
+    "description": "A food preservative used to prevent mold growth in baked goods, dairy products, and other food products, and as a flavor enhancer."
+  },
+  {
+    "name": "Ascorbic Acid",
+    "tag": "Antioxidant",
+    "description": "A water-soluble antioxidant used to prevent the oxidation of food products, such as fruits and vegetables, and to maintain their color and flavor."
+  },
+  {
+    "name": "Tocopherols",
+    "tag": "Antioxidant",
+    "description": "A group of naturally occurring antioxidants used to prevent oxidation and spoilage in a variety of food products, including oils, fats, and meats."
+  },
+  {
+    "name": "Monocalcium Phosphate",
+    "tag": "Leavening Agent",
+    "description": "A leavening agent used in baking to produce carbon dioxide, which helps to make baked goods light and fluffy."
+  },
+  {
+    "name": "Sorbic Acid",
+    "tag": "Preservative",
+    "description": "A food preservative used to prevent mold growth in a wide range of food products, including dairy, baked goods, and fruits and vegetables."
+  },
+  {
+    "name": "Sodium Bicarbonate",
+    "tag": "Leavening Agent",
+    "description": "A commonly used leavening agent in baking, used to produce carbon dioxide that helps to make baked goods light and fluffy."
+  }
+]

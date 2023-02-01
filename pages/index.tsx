@@ -12,10 +12,14 @@ export default function Home() {
       
       <Navbar/>
       <HeroImage/>
-      <ProductsSection/>
+      <ProductsSection count={8}/>
       <PartitionDiv/>
+      <div className="h-2 bg-gradient-to-r from-blue-600 to-blue-800 via-red-900 my-4 rounded-lg"></div>
+
       <Aboutus/>
-      <PartitionDiv/>
+      {/* <PartitionDiv/> */}
+      <div className="h-2 bg-gradient-to-r from-blue-600 to-blue-800 via-red-900 my-4 rounded-lg"></div>
+
       <OurPartners/>
       <Footer/>
     </>

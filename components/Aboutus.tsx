@@ -28,7 +28,7 @@ const Aboutus = (props: Props) => {
         </p>
       <div className="flex justify-start">
 
-          <Button text="Read More" />
+          <Button text="Read More" href="/about" />
       </div>
         
       </div>
