@@ -66,19 +66,18 @@ const Navbar = (props: Props) => {
           </Link>
         </ul>
         <div className="logo h-14  flex items-center mr-40">
-          <Link href='/'>
-        <Image
-            src="/logo.jpeg"
-            alt=""
-            className="w-full h-full"
-            height={200}
-            width={200}
+          <Link href="/" className="w-full h-full">
+            <Image
+              src="/logo.jpeg"
+              alt=""
+              className="w-full h-full"
+              height={200}
+              width={200}
             />
-            </Link>
+          </Link>
         </div>
         <div className="contactus">
-
-          <Link href={'/contact'}>
+          <Link href={"/contact"}>
             <button className="px-2 py-1 capitalize text-blue-900 text-md bg-blue-100  rounded-lg  hover:bg-blue-600 border-[3px] border-blue-700 font-medium hover:text-white transition-colors active:scale-95">
               {" "}
               contact us
@@ -99,19 +98,18 @@ const Navbar = (props: Props) => {
           )}
         </button>
         <div className="logo h-14   flex items-center ml-16">
-          <Link href='/'>
-          <Image
-            src="/logo.jpeg"
-            alt=""
-            className="w-full h-full"
-            height={200}
-            width={200}
+          <Link href="/" className="w-full h-full">
+            <Image
+              src="/logo.jpeg"
+              alt=""
+              className="w-full h-full"
+              height={200}
+              width={200}
             />
-            </Link>
+          </Link>
         </div>
         <div className="contactus md:hidden">
-
-          <Link href={'/contact'}>
+          <Link href={"/contact"}>
             <button className="px-2 py-1 capitalize text-blue-900 text-md bg-blue-100  rounded-lg  hover:bg-blue-600 border-[3px] border-blue-700 font-medium hover:text-white transition-colors active:scale-95">
               {" "}
               contact us
@@ -125,21 +123,21 @@ const Navbar = (props: Props) => {
         } transition-all shadow-md absolute md:hidden`}
       >
         <ul className="links">
-          <Link href={'/about'}>
-              <li className="cursor-pointer link border-b  px-4 py-2 text-blue-700 font-medium bg-white   flex gap-5 hover:gap-6 active:gap-8">
-                {<AiOutlineArrowRight />}About Us
-              </li>
+          <Link href={"/about"}>
+            <li className="cursor-pointer link border-b  px-4 py-2 text-blue-700 font-medium bg-white   flex gap-5 hover:gap-6 active:gap-8">
+              {<AiOutlineArrowRight />}About Us
+            </li>
           </Link>
 
-          <Link href={'/products'}>
-              <li className="cursor-pointer link border-b  px-4 py-2  text-blue-700 font-medium bg-white  flex gap-5 hover:gap-6 active:gap-8">
-                {<AiOutlineArrowRight />}Products
-              </li>
+          <Link href={"/products"}>
+            <li className="cursor-pointer link border-b  px-4 py-2  text-blue-700 font-medium bg-white  flex gap-5 hover:gap-6 active:gap-8">
+              {<AiOutlineArrowRight />}Products
+            </li>
           </Link>
-          <Link href={'/shop'}>
-              <li className="cursor-pointer link border-b  px-4 py-2 text-blue-700 font-medium bg-white   flex gap-5 hover:gap-6 active:gap-8">
-                {<AiOutlineArrowRight />}Shop
-              </li>
+          <Link href={"/shop"}>
+            <li className="cursor-pointer link border-b  px-4 py-2 text-blue-700 font-medium bg-white   flex gap-5 hover:gap-6 active:gap-8">
+              {<AiOutlineArrowRight />}Shop
+            </li>
           </Link>
         </ul>
       </div>

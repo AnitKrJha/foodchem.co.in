@@ -18,13 +18,14 @@ const SingleProduct = (props: Props) => {
     <div className="container w-full max-w-sm flex flex-col items-center gap-2">
       <div className="image max-w-xs">
         <Image
-          src={`https://unsplash.it/720/900`}
+          src={`https://unsplash.it/400/500`}
           width={300}
           height={400}
           alt={name}
           className={
             "w-full rounded-md drop-shadow-lg hover:drop-shadow-2xl cursor-pointer transition-all"
           }
+          priority={true}
         />
       </div>
       <h2 className="name text-3xl font-bold mt-4">{name}</h2>
